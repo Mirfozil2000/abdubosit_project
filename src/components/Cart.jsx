@@ -40,7 +40,7 @@ const Cart = () => {
   }
 
   useEffect(() => {
-    if(orderStatus == true && isOpenCart == false) {
+    if(orderStatus === true && isOpenCart === false) {
       setTimeout(() => {
         setOrderStatus(false)
       }, 1000)      
